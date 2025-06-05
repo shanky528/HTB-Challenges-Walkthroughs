@@ -1,1 +1,3 @@
-A curated collection of my personal walkthroughs and writeups for Hack The Box (HTB) machines and challenges. Includes detailed steps for enumeration, exploitation, privilege escalation, and post-exploitation analysis. The goal is to reinforce core penetration testing concepts and develop structured methodologies for OSCP-like environments.
+This branch contains detailed walkthroughs and solutions for various cybersecurity labs and challenges. It includes hands-on exercises, tool usage guides, network configurations, and practical exploitation steps designed to reinforce theoretical concepts. Suitable for learners and practitioners looking to build real-world offensive and defensive cybersecurity skills.
+
+
