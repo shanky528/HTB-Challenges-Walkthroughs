@@ -1,2 +1,51 @@
-# HTB-Challenges-Walkthroughs
-A curated collection of my personal walkthroughs and writeups for Hack The Box (HTB) machines and challenges. Includes detailed steps for enumeration, exploitation, privilege escalation, and post-exploitation analysis. The goal is to reinforce core penetration testing concepts and develop structured methodologies for OSCP-like environments.
+# 📡 WiFi Penetration Testing Walkthrough
+
+This subdirectory contains a structured walkthrough and tool references for wireless penetration testing using tools like `aircrack-ng`, `airodump-ng`, and others. It’s tailored for HTB WiFi labs and includes real challenges, packet capture, and decryption steps.
+
+---
+
+## 📘 Topics Covered
+
+| Category | Description |
+|----------|-------------|
+| WiFi Basics | Security standards, 802.11 frame analysis |
+| Tool Usage | Airmon-ng, Airodump-ng, Aireplay-ng, etc. |
+| Attacks | WPA deauth, handshake capture, cracking |
+| Real Challenges | HTB CTF-style writeups with flags |
+| Network Connections | CLI-based WEP/WPA joining methods |
+
+---
+
+## 🧰 Tools
+
+- `airmon-ng`
+- `airodump-ng`
+- `aireplay-ng`
+- `aircrack-ng`
+- `airdecap-ng`
+- `airgraph-ng`
+
+---
+
+## 📁 Subfolders
+
+- `vpn/`: Connect to HTB over VPN
+- `basics/`: WiFi fundamentals
+- `tools/`: Tool-specific usage guides
+- `attacks/`: WEP/WPA cracking methods
+- `connection-methods/`: WPA/WEP CLI config
+- `challenges/`: Lab walkthroughs and flags
+
+---
+
+## 📌 Notes
+
+- You need a wireless adapter that supports monitor mode and packet injection.
+- These labs require HTB VPN and wordlists like `rockyou.txt`.
+
+---
+
+## ⚠️ Disclaimer
+
+This content is for **educational use only**. Do not use these techniques on unauthorized networks.
+
